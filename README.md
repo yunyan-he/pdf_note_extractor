@@ -11,7 +11,20 @@ A local web application to extract highlights and notes from PDFs (specifically 
 - Python 3.8+
 - Node.js & npm
 
-## Installation & Setup
+## Quick Start (Recommended)
+This project includes a startup script that sets up the environment, launches both backend and frontend, and opens your browser automatically.
+
+1.  **Make the script executable** (first time only):
+    ```bash
+    chmod +x start.sh
+    ```
+
+2.  **Run the app**:
+    ```bash
+    ./start.sh
+    ```
+
+## Installation & Setup (Manual)
 
 ### 1. Backend Setup (FastAPI)
 Navigate to the `backend` folder:
